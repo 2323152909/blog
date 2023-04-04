@@ -6,3 +6,4 @@ build
 /.idea/workspace.xml
 .vscode
 .amazing-mock
+docs/.vuepress/dist
