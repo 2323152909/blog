@@ -12,19 +12,10 @@ cd docs/.vuepress/dist
 # deploy to github pages
 # echo 'b.xugaoyi.com' > CNAME
 
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:2323152909/blog.git
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://2323152909:${GITHUB_TOKEN}@github.com/2323152909/blog.git
-  git config --global user.name "coderlhd"
-  git config --global user.email "15123603553@163.com"
-fi
 git init
 git add -A
-git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+git commit -m "deploy"
+git push -f git@github.com:2323152909/blog.git master:gh-pages # 推送到github gh-pages分支
 
 cd -
 rm -rf docs/.vuepress/dist
