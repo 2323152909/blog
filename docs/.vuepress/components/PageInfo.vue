@@ -45,10 +45,11 @@ export default {
             });
           } catch (error) {}
         }
-        if (pageView || pageView == undefined) {
-          this.addPageView();
-          this.getPageViewCouter(pageIteration);
-        }
+        // if (pageView || pageView == undefined) {
+        //   this.addPageView();
+        //   console.log(pageIteration);
+        //   this.getPageViewCouter(pageIteration);
+        // }
         return;
       }
     },
@@ -58,7 +59,7 @@ export default {
     getPageViewCouter(iterationTime = 3000) {
       fetch();
       let i = 0;
-      var defaultCouter = "9999";
+      var defaultCouter = "100";
       // 如果只需要第一次获取数据（可能获取失败），可注释掉 setTimeout 内容，此内容是第一次获取失败后，重新获取访问量
       // 可能会导致访问量再次 + 1 原因：取决于 setTimeout 的时间（需求调节），setTimeout 太快导致第一个获取的数据没返回，就第二次获取，导致结果返回 + 2 的数据
       setTimeout(() => {

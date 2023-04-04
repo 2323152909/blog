@@ -22,36 +22,6 @@ module.exports = {
   ],
   lang: "en",
   themeConfig: {
-    // sidebar: {
-    //   '/interview/': ['css', 'js10', 'notes', 'rewriteJs', 'unique', 'vue'],
-    //   '/database/': [
-    //     'mysql/baseFrame',
-    //     'mysql/logSystem',
-    //     'mysql/optimize',
-    //     'mysql/writeSql',
-    //     'choice',
-    //     'detail-redis1',
-    //     'detail-redis2',
-    //     'detail-redis3'
-    //   ],
-    //   '/node/': [
-    //     'APIGateway',
-    //     'AsyncIO',
-    //     'buffer',
-    //     'errors',
-    //     'event_loop',
-    //     'events',
-    //     'module_fs',
-    //     'npm',
-    //     'overflow',
-    //     'path',
-    //     'processAndThread',
-    //     'queue',
-    //     'stream',
-    //     'what'
-    //   ],
-    //   '/recommend/': ['book', 'project']
-    // },
     smoothScroll: true,
     nav: [
       { text: "主页", link: "/" },
@@ -84,7 +54,7 @@ module.exports = {
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     // 以下配置是Vdoing主题改动的和新增的配置
-    sidebar: { mode: "structuring", collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+    sidebar: { mode: "structuring", collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     repo: "2323152909/blog/",
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
@@ -141,7 +111,7 @@ module.exports = {
     blogInfo: {
       blogCreate: "2023-04-04", // 博客创建时间
       indexView: true, // 开启首页的访问量和排名统计，默认 true（开启）
-      pageView: true, // 开启文章页的浏览量统计，默认 true（开启）
+      // pageView: true, // 开启文章页的浏览量统计，默认 true（开启）
       readingTime: true, // 开启文章页的预计阅读时间，条件：开启 eachFileWords，默认 true（开启）。可在 eachFileWords 的 readEachFileWords 的第二个和第三个参数自定义，默认 1 分钟 300 中文、160 英文
       eachFileWords: readEachFileWords([""], 300, 160), // 开启每个文章页的字数。readEachFileWords(['xx']) 关闭 xx 目录（可多个，可不传参数）下的文章页字数和阅读时长，后面两个参数分别是 1 分钟里能阅读的中文字数和英文字数。无默认值。readEachFileWords() 方法默认排除了 article 为 false 的文章
       mdFileCountType: "archives", // 开启文档数。1. archives 获取归档的文档数（默认）。2. 数组 readFileList(['xx']) 排除 xx 目录（可多个，可不传参数），获取其他目录的文档数。提示：readFileList() 获取 docs 下所有的 md 文档（除了 `.vuepress` 和 `@pages` 目录下的文档）
