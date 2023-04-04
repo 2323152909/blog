@@ -26,7 +26,7 @@ simplePostListLength: 15 # 简约版文章列表显示的文章数量，默认10
 - [`前端框架`](/pages/69d32e/)
 - [`面试汇总系列`](/pages/b8f048/)
   
-[comment]: <> (<p align="center">)
+<!-- [comment]: <> (<p align="center">)
 
 [comment]: <> ( <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>)
 
@@ -36,7 +36,7 @@ simplePostListLength: 15 # 简约版文章列表显示的文章数量，默认10
 
 [comment]: <> ( <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>)
 
-[comment]: <> (</p>)
+[comment]: <> (</p>) -->
 
 <ClientOnly>
   <WebInfo/>
