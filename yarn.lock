@@ -3638,6 +3638,11 @@
   "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-1.5.2.tgz"
   "version" "1.5.2"
 
+"deepmerge@^4.2.2":
+  "integrity" "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A=="
+  "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
+  "version" "4.3.1"
+
 "default-gateway@^4.2.0":
   "integrity" "sha512-h6sMrVB1VMWVrW13mSc6ia/DwYYw5MN6+exNu1OaJeFac5aSAvwM7lZ0NVfTABuSkQelr4h5oebg3KB1XPdjgA=="
   "resolved" "https://registry.npmjs.org/default-gateway/-/default-gateway-4.2.0.tgz"
@@ -4425,6 +4430,11 @@
     "locate-path" "^5.0.0"
     "path-exists" "^4.0.0"
 
+"flexsearch@^0.6.32":
+  "integrity" "sha512-EF1BWkhwoeLtbIlDbY/vDSLBen/E5l/f1Vg7iX5CDymQCamcx1vhlc3tIZxIDplPjgi0jhG37c67idFbjg+v+Q=="
+  "resolved" "https://registry.npmjs.org/flexsearch/-/flexsearch-0.6.32.tgz"
+  "version" "0.6.32"
+
 "flowchart.js@^1.17.1":
   "integrity" "sha512-zphTaxdyqvHHu+8Cdf6HvamhArXpq9SyNe1zQ61maCIfTenaj3cMvjS1e/0gfPj7QTLTx3HroSzVqDXpL8naoQ=="
   "resolved" "https://registry.npmjs.org/flowchart.js/-/flowchart.js-1.17.1.tgz"
@@ -4963,6 +4973,16 @@
   "integrity" "sha512-mH3dWNbvfCKcAEysbpD7wvtIJ6ImPog8aFhfzqog9gCN8CJFhKjLDtjpohG3IxYRLqHMJ1PWpBvnSMkFJBQ6Jg=="
   "resolved" "https://registry.npmjs.org/html-tags/-/html-tags-3.3.0.tgz"
   "version" "3.3.0"
+
+"html-to-text@^7.0.0":
+  "integrity" "sha512-bnQRVDGgprdYkDRme4BH5xTxFo9ESorrfMHBWjtdgNVGkthXXQIGbmp3PRIjJVcaCP4mJMSuXtBi/lHqUCHUzw=="
+  "resolved" "https://registry.npmjs.org/html-to-text/-/html-to-text-7.1.3.tgz"
+  "version" "7.1.3"
+  dependencies:
+    "deepmerge" "^4.2.2"
+    "he" "^1.2.0"
+    "htmlparser2" "^6.1.0"
+    "minimist" "^1.2.6"
 
 "htmlparser2@^6.1.0":
   "integrity" "sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A=="
@@ -5927,7 +5947,7 @@
   "resolved" "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   "version" "4.5.0"
 
-"lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.3", "lodash@^4.17.5":
+"lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.3", "lodash@^4.17.5":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -8998,6 +9018,20 @@
     "@vuepress/shared-utils" "^1.2.0"
     "markdown-it-container" "^2.0.0"
 
+"vuepress-plugin-demo-block@^0.7.2":
+  "integrity" "sha512-0k7z7bTjXoXgdAMVFIVn3RFSQpKOM0yvD0hf/CA0gMCLBih77mCALtEpH9b+bEvijHmLLIq+BUtS2TQHXpkbNA=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-demo-block/-/vuepress-plugin-demo-block-0.7.2.tgz"
+  "version" "0.7.2"
+
+"vuepress-plugin-fulltext-search@^2.2.1":
+  "integrity" "sha512-+BOLOdOTvwg7+4z71fmpuZUaHSw+exrw8S9m0kvBUgIVDoe5VS/G3y4hcd+K1hukbkxE/ec10Ikk8hc/3zf2VQ=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-fulltext-search/-/vuepress-plugin-fulltext-search-2.2.1.tgz"
+  "version" "2.2.1"
+  dependencies:
+    "flexsearch" "^0.6.32"
+    "html-to-text" "^7.0.0"
+    "lodash" "^4.17.19"
+
 "vuepress-plugin-md-enhance@^1.30.0":
   "integrity" "sha512-1iDdpqMfVOlvs3P9fT3IcJ+7yecoSfoLGStmotC4rGMFC/fuNKIJpvvxIrMKfG4c/XfW4x1CIhJKKNGmykP7+A=="
   "resolved" "https://registry.npmjs.org/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-1.30.0.tgz"
@@ -9028,6 +9062,11 @@
   dependencies:
     "smoothscroll-polyfill" "^0.4.3"
 
+"vuepress-plugin-thirdparty-search@^1.0.2":
+  "integrity" "sha512-qXAzHCsbe7fKdqZyI7cax6qtVZpqbW5TEp+NOwCzgN6IIrHc8vOkz+shCTvc+qzDgqE31+geT1lPFFX6LvbOFQ=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-thirdparty-search/-/vuepress-plugin-thirdparty-search-1.0.2.tgz"
+  "version" "1.0.2"
+
 "vuepress-plugin-zooming@^1.1.8":
   "integrity" "sha512-QAspMEqzerd0n8z/oOL5a67V/QaFZyjSwfo86y6PWhDdVAeOLR7umJ7syQqJpMdN9EVxmAstuzbKHkRxWzL0NQ=="
   "resolved" "https://registry.npmjs.org/vuepress-plugin-zooming/-/vuepress-plugin-zooming-1.1.8.tgz"
@@ -9056,7 +9095,7 @@
     "vuepress-plugin-container" "^2.0.2"
     "vuepress-plugin-smooth-scroll" "^0.0.3"
 
-"vuepress@^1.8.2", "vuepress@^1.9.9":
+"vuepress@^1.4.0", "vuepress@^1.8.2", "vuepress@^1.9.9":
   "integrity" "sha512-CU94W3EdWaCavGx2VSvQJMI/hyv+m/YMdrvJJw67EVfmmJJDb1iTGrilDgLd0qsyrXzBy0Ru9Qi6rkf4IwcOTg=="
   "resolved" "https://registry.npmjs.org/vuepress/-/vuepress-1.9.9.tgz"
   "version" "1.9.9"
