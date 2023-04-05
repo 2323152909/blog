@@ -6,11 +6,11 @@ actionText: 开始阅读 →
 actionLink: /pages/395573/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 features:
-  - title: day day up
+  - title: day-day-up
     details: 记录每一天的进步, 一分耕耘，一分收获。
     imgUrl: /img/date-manage.png
   - title: 前端码农成长指北
-    details: 专注大前端技术栈学习扩展，从 前端基础三建客 到Jquery 再到Vue和react；从 只专注于前端，到用Node.js搭建后台服务，利用云服务器部署展示自己的成果，祝您成为优秀的高级 Node.js 全栈工程师。
+    details: 专注大前端技术栈学习扩展，从前端 到 Nodejs全栈，祝我们成为优秀的高级 Node.js 全栈工程师。
     imgUrl: /img/text.png
   - title: Coderlhd
     details: 一个正在努力变成善于总结的前端码农。座右铭：了解真相，才能获得真正的自由。
