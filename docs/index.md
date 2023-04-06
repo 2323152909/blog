@@ -4,6 +4,7 @@ heroText: 🚀前端知识库&个人博客
 tagline: The Knowledge Base is Deployed with a Cloud-Native Architecture
 actionText: 开始阅读 →
 actionLink: /pages/395573/
+type: blog
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 features:
   - title: day-day-up
@@ -28,7 +29,7 @@ simplePostListLength: 15 # 简约版文章列表显示的文章数量，默认10
 - [`MySql必知必会系列`](/pages/3d326e/)
 - [`前端框架`](/pages/69d32e/)
 - [`面试汇总系列`](/pages/b8f048/)
-  
+
 <!-- [comment]: <> (<p align="center">)
 
 [comment]: <> ( <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>)
