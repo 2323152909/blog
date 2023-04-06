@@ -1,7 +1,7 @@
 const { readEachFileWords } = require('./webSiteInfo/readFile'); // 自定义站点信息插件
 
 module.exports = {
-  base: '/blog/',
+  base: '/',
   title: 'Coderlhd的博客',
   description: '专注 Web 技术栈分享，从原生JS到Vue再到React,然后Node.js的express到koa。',
   lastUpdated: 'Last Updated', // string | boolean
