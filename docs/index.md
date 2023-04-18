@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 🚀前端知识库&个人博客
-tagline: The Knowledge Base is Deployed with a Cloud-Native Architecture
+tagline: 努力成为优秀的前端人
 actionText: 开始阅读 →
 actionLink: /pages/395573/
 type: blog

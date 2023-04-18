@@ -40,15 +40,15 @@ module.exports = {
         ]
       },
       { text: '数据库', link: '/pages/3d326e/' },
-      {
-        text: '算法',
-        link: '/pages/83cdcf/',
-        items: [
-          { text: '剑指Offer', link: '/pages/83cdcf/' },
-          { text: 'LeetCode', link: '/pages/b2b5b5/' },
-          { text: '排序算法', link: '/pages/8d006a/' }
-        ]
-      },
+      // {
+      //   text: '算法',
+      //   link: '/pages/83cdcf/',
+      //   items: [
+      //     { text: '剑指Offer', link: '/pages/83cdcf/' },
+      //     { text: 'LeetCode', link: '/pages/b2b5b5/' },
+      //     { text: '排序算法', link: '/pages/8d006a/' }
+      //   ]
+      // },
       { text: '浏览器', link: '/pages/efa880/' },
       { text: '面试问题', link: '/pages/b8f048/' },
       // { text: '关于我', link: '/pages/' },
