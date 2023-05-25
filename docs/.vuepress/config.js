@@ -39,6 +39,22 @@ module.exports = {
           { text: 'react', link: '/pages/b44d9e/' }
         ]
       },
+      {
+        text: 'Vue技术揭秘',
+        link: '/pages/a47355/',
+        // items: [
+        //   { text: 'v2.x版本', link: '/pages/a47355/' },
+        // ]
+      },
+      {
+        text: 'React技术揭秘',
+        link: '/pages/cb2f76/',
+        items: [
+          { text: '理念篇', link: '/pages/cb2f76/' },
+          { text: '架构篇', link: '/pages/37ee40/' },
+          { text: '实现篇', link: '/pages/2c4132/' }
+        ]
+      },
       { text: '数据库', link: '/pages/3d326e/' },
       // {
       //   text: '算法',
@@ -62,7 +78,7 @@ module.exports = {
       { text: 'ChatGPT', link: '/gpt/' },
       { text: '实践', link: '/experience/vue3/' }
     ],
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/favicon.png',
     // 以下配置是Vdoing主题改动的和新增的配置
     sidebar: { mode: 'structuring', collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
