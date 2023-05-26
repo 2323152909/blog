@@ -18,4 +18,4 @@ git commit -m "deploy"
 git push -f git@github.com:2323152909/blog.git master:gh-pages # 推送到github gh-pages分支
 
 cd -
-rm -rf docs/.vuepress/dist
+rm -rf dist
