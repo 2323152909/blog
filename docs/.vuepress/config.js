@@ -2,6 +2,7 @@ const { readEachFileWords } = require('./webSiteInfo/readFile'); // 自定义站
 
 module.exports = {
   base: '/',
+  // logo: '🚀',
   title: 'Coderlhd的博客',
   description: '专注 Web 技术栈分享，从原生JS到Vue再到React,然后Node.js的express到koa。',
   lastUpdated: 'Last Updated', // string | boolean
@@ -30,13 +31,13 @@ module.exports = {
         text: '前端',
         link: '/pages/9f8338/',
         items: [
-          { text: 'css', link: '/pages/349798/' },
-          { text: 'html', link: '/pages/a194dc/' },
-          { text: 'javascript', link: '/pages/a845b1/' },
-          { text: 'tool', link: '/pages/301f76/' },
-          { text: 'es6', link: '/pages/ff4b06/' },
-          { text: 'vue', link: '/pages/69d32e/' },
-          { text: 'react', link: '/pages/b44d9e/' }
+          { text: 'CSS', link: '/pages/349798/' },
+          { text: 'HTML', link: '/pages/a194dc/' },
+          { text: 'JavaScript', link: '/pages/a845b1/' },
+          { text: 'Tool', link: '/pages/301f76/' },
+          { text: 'ES6', link: '/pages/ff4b06/' },
+          // { text: 'vue', link: '/pages/69d32e/' },
+          // { text: 'react', link: '/pages/b44d9e/' }
         ]
       },
       {
@@ -79,7 +80,6 @@ module.exports = {
       { text: '实践', link: '/experience/vue3/' }
     ],
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: '/img/favicon.png',
     // 以下配置是Vdoing主题改动的和新增的配置
     sidebar: { mode: 'structuring', collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     repo: '2323152909/blog/',
@@ -126,7 +126,7 @@ module.exports = {
       // 博客版权信息，支持a标签
       copyrightInfo:
         'coderlhd | <a href="https://github.com/2323152909/blob/master/LICENSE" target="_blank">MIT License</a>' +
-        '<br> <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备2022003847号-2号</a>'
+        '<br> <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备2022003847号-2</a>'
     },
     extendFrontmatter: {
       author: {

@@ -9,26 +9,26 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features:
   - title: day-day-up
     details: 记录每一天的进步, 一分耕耘，一分收获。
-    imgUrl: /img/date-manage.png
-  - title: 前端码农成长指北
-    details: 专注大前端技术栈学习扩展，从前端 到 Nodejs全栈，祝我们成为优秀的高级 Node.js 全栈工程师。
-    imgUrl: /img/text.png
-  - title: Coderlhd
-    details: 一个正在努力变成善于总结的前端码农。座右铭：了解真相，才能获得真正的自由。
-    imgUrl: /img/learn.png
+    # imgUrl: /img/date-manage.png
+  - title: 个人简介
+    details: 正在努力成为对社会有用的前端人。
+    # imgUrl: /img/text.png
+  - title: 座右铭
+    details: 了解真相，才能获得真正的自由。
+    # imgUrl: /img/learn.png
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: simple
 simplePostListLength: 15 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 # hideRightBar: true # 是否隐藏右侧边栏 (v1.11.2+)
 ---
 
-### 博客技术栈目录
+<!-- ### 博客技术栈目录
 
 - [`JavaScript必知必会`](/pages/9f8338/)
 - [`NODE必知必会系列`](/pages/395573/)
 - [`MySql必知必会系列`](/pages/3d326e/)
 - [`前端框架`](/pages/69d32e/)
-- [`面试汇总系列`](/pages/b8f048/)
+- [`面试汇总系列`](/pages/b8f048/) -->
 
 <!-- [comment]: <> (<p align="center">)
 
