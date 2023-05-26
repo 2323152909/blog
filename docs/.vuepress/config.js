@@ -1,6 +1,7 @@
 const { readEachFileWords } = require('./webSiteInfo/readFile'); // 自定义站点信息插件
 
 module.exports = {
+  // base: '/blog/',
   base: '/',
   // logo: '🚀',
   title: 'Coderlhd的博客',
@@ -44,9 +45,9 @@ module.exports = {
       {
         text: 'Vue技术揭秘',
         link: '/pages/a47355/',
-        // items: [
-        //   { text: 'v2.x版本', link: '/pages/a47355/' },
-        // ]
+        items: [
+          { text: 'v2.x版本', link: '/pages/a47355/' },
+        ]
       },
       {
         text: 'React技术揭秘',
@@ -82,7 +83,7 @@ module.exports = {
     ],
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     // 以下配置是Vdoing主题改动的和新增的配置
-    sidebar: { mode: 'structuring', collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+    sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     repo: '2323152909/blog/',
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
@@ -161,7 +162,12 @@ module.exports = {
         options: {
           el: '#valine-vuepress-comment',
           appId: 'tGmlJK3ZHizf9kLJIrX5C9bi-gzGzoHsz',
-          appKey: 'iaF3TZnZvH1zZ0ykpw1ASZck'
+          appKey: 'iaF3TZnZvH1zZ0ykpw1ASZck',
+          path: '<%- frontmatter.permalink %>', // 使用 permalink 作为 identifier
+          placeholder:"请输入评论",
+          avatar: 'robohash',
+          meta: ['nick'],
+          requiredFields: ['nick'],
         }
       }
     ],
