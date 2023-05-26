@@ -5,6 +5,7 @@ module.exports = {
   // logo: '🚀',
   title: 'Coderlhd的博客',
   description: '专注 Web 技术栈分享，从原生JS到Vue再到React,然后Node.js的express到koa。',
+  dest: "dist",
   lastUpdated: 'Last Updated', // string | boolean
   theme: 'vdoing', // 使用依赖包主题
   head: [

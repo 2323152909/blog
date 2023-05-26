@@ -7,3 +7,4 @@ build
 .vscode
 .amazing-mock
 docs/.vuepress/dist
+dist

@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd dist
 
 # deploy to github pages
 # echo 'b.xugaoyi.com' > CNAME
