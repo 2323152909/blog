@@ -133,7 +133,7 @@ module.exports = {
     extendFrontmatter: {
       author: {
         name: 'coderlhd',
-        link: 'https://github.com/232315299'
+        link: 'https://github.com/2323152909'
       }
     },
     // 站点配置(首页&文章页)
