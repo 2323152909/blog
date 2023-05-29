@@ -1,0 +1,7 @@
+{
+  "name": "coderlhd_blog",
+  "short_name": "blog",
+  "version": "1.0.0",
+  "description": "前端程序员成长指北博主, coderlhd的博客",
+  "manifest_version": 2
+}
