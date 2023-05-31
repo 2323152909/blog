@@ -3,10 +3,9 @@ const { readEachFileWords } = require('./webSiteInfo/readFile'); // 自定义站
 module.exports = {
   // base: '/blog/',
   base: '/',
-  // logo: '🚀',
   title: 'Coderlhd的博客',
   description: '专注 Web 技术栈分享，从原生JS到Vue再到React,然后Node.js的express到koa。',
-  dest: "dist",
+  dest: 'dist',
   lastUpdated: 'Last Updated', // string | boolean
   theme: 'vdoing', // 使用依赖包主题
   head: [
@@ -37,7 +36,7 @@ module.exports = {
           { text: 'HTML', link: '/pages/a194dc/' },
           { text: 'JavaScript', link: '/pages/a845b1/' },
           { text: 'Tool', link: '/pages/301f76/' },
-          { text: 'ES6', link: '/pages/ff4b06/' },
+          { text: 'ES6', link: '/pages/ff4b06/' }
           // { text: 'vue', link: '/pages/69d32e/' },
           // { text: 'react', link: '/pages/b44d9e/' }
         ]
@@ -45,9 +44,7 @@ module.exports = {
       {
         text: 'Vue技术揭秘',
         link: '/pages/a47355/',
-        items: [
-          { text: 'v2.x版本', link: '/pages/a47355/' },
-        ]
+        items: [{ text: 'v2.x版本', link: '/pages/a47355/' }]
       },
       {
         text: 'React技术揭秘',
@@ -81,6 +78,7 @@ module.exports = {
       { text: 'ChatGPT', link: '/gpt/' },
       { text: '实践', link: '/experience/vue3/' }
     ],
+    logo: '/logo.png',
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     // 以下配置是Vdoing主题改动的和新增的配置
     sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
@@ -164,10 +162,10 @@ module.exports = {
           appId: 'tGmlJK3ZHizf9kLJIrX5C9bi-gzGzoHsz',
           appKey: 'iaF3TZnZvH1zZ0ykpw1ASZck',
           path: '<%- frontmatter.permalink %>', // 使用 permalink 作为 identifier
-          placeholder:"请输入评论",
+          placeholder: '请输入评论',
           avatar: 'robohash',
           meta: ['nick'],
-          requiredFields: ['nick'],
+          requiredFields: ['nick']
         }
       }
     ],
